@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.awesome-icon:hover {
+  font-size: 30px;
+  color: #00f902;
+}
+.awesome-icon {
+  color: gray;
+  font-size: 30px;
+  cursor: pointer;
+  /* padding-bottom: 10px; */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.react-multi-carousel-list {
+  /* padding: 0px 35px; */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* justify-content: space-between; */
+  position: relative;
+}
+
+@media only screen and (max-width: 425px) {
+  .react-multi-carousel-list {
+    /* padding: 0px 70px; */
+    padding: 0px 65px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+    position: relative;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .react-multi-carousel-list {
+    /* padding: 0px 45px; */
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+    position: relative;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .react-multi-carousel-list {
+    padding: 0px 14px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+    position: relative;
+  }
+}
+
+.react-multi-carousel-item {
+  transform-style: preserve-3d;
+  /* min-height: 67.5vh; */
+  width: 100%;
+  /* justify-content: space-between; */
+  display: flex;
+}
+
+@media only screen and (min-width: 2560px) {
+  .react-multi-carousel-item {
+    transform-style: preserve-3d;
+    /* min-height: 67.5vh; */
+    width: 100%;
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/* 
+.react-multiple-carousel__arrow {
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: 39%;
+  margin-right: 39%;
+}
+
+@media (max-width: 800px) {
+  .react-multiple-carousel__arrow {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
+  .react-multi-carousel-item {
+    min-height: 68vh;
+  }
+}
+@media (max-width: 480px) {
+  .react-multiple-carousel__arrow {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
+  .react-multi-carousel-item {
+    min-height: 54vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .react-multiple-carousel__arrow {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media (max-width: 800px) {
+  .react-multiple-carousel__arrow {
+    bottom: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .react-multiple-carousel__arrow {
+    bottom: 0px;
+  }
+} */
+
+.text-gradient {
+  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
